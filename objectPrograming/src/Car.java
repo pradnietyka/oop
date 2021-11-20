@@ -84,59 +84,59 @@ public class Car {
 
     public Car(){
     }
-    public Car(int speed, int gear, String model){
-        this.speed = speed;
-        this.gear = gear;
-        this.model = model;
-    }
-    public void startEngine() {
-        System.out.println("silnik dziala");
-    }
-    public void stopEngine(){
-        System.out.println("silnik zgasl");
-    }
-    public void accelerate(int acceleration){
-        this.speed += acceleration;
-        System.out.println("samochod jedzie z predkoscia " + speed+ "km/h");
-    }
-    public void slowDown(int speed){
-        this.speed -= speed;
-        System.out.println("samochod zwalnia do predkosci " + this.speed + "km/h");
-    }
-    public void setGear(int gear){
-        if(gear < 7 && gear > 0){
-            this.gear = gear;
-            System.out.println("jestes na biegu " + this.gear);
-        }
-    }
-    public void setLights(boolean lights){
-        this.lights = lights;
-    }
-    public boolean getLights(){
-        return lights;
-    }
-
-    public int getSpeed() {
-        return speed;
-    }
-
-    public void setSpeed(int speed) {
-        this.speed = speed;
-    }
-
-    public int getGear() {
-        return gear;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    public boolean isLights() {
-        return lights;
-    }
+//    public Car(int speed, int gear, String model){
+//        this.speed = speed;
+//        this.gear = gear;
+//        this.model = model;
+//    }
+//    public void startEngine() {
+//        System.out.println("silnik dziala");
+//    }
+//    public void stopEngine(){
+//        System.out.println("silnik zgasl");
+//    }
+//    public void accelerate(int acceleration){
+//        this.speed += acceleration;
+//        System.out.println("samochod jedzie z predkoscia " + speed+ "km/h");
+//    }
+//    public void slowDown(int speed){
+//        this.speed -= speed;
+//        System.out.println("samochod zwalnia do predkosci " + this.speed + "km/h");
+//    }
+//    public void setGear(int gear){
+//        if(gear < 7 && gear > 0){
+//            this.gear = gear;
+//            System.out.println("jestes na biegu " + this.gear);
+//        }
+//    }
+//    public void setLights(boolean lights){
+//        this.lights = lights;
+//    }
+//    public boolean getLights(){
+//        return lights;
+//    }
+//
+//    public int getSpeed() {
+//        return speed;
+//    }
+//
+//    public void setSpeed(int speed) {
+//        this.speed = speed;
+//    }
+//
+//    public int getGear() {
+//        return gear;
+//    }
+//
+//    public String getModel() {
+//        return model;
+//    }
+//
+//    public void setModel(String model) {
+//        this.model = model;
+//    }
+//
+//    public boolean isLights() {
+//        return lights;
+//    }
 }

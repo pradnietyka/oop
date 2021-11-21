@@ -16,18 +16,17 @@
 
 public class Main {
     public static void main(String[] args) {
+//
+//        Mazda V5 = new Mazda(2020, "6", true, 500,"Leather");
+//        V5.startEngine();
+//
+//        Vehicle vehicle = new Vehicle(2003, "A6", true, 340000);
+//        vehicle.startEngine();
+//
+//        Golf GTI = new Golf(2006,"5",true,150000,Drive.AWD);
+//        GTI.startEngine();
 
-        Mazda V5 = new Mazda(2020, "6", true, 500,"Leather");
-        V5.startEngine();
 
-        Vehicle vehicle = new Vehicle(2003, "A6", true, 340000);
-        vehicle.startEngine();
-
-        Golf GTI = new Golf(2006,"5",true,150000,Drive.AWD);
-        GTI.startEngine();
-
-    }
-}
 //
 //        Car audi = new Car(0, 1, "a3", true);
 //
@@ -60,3 +59,11 @@ public class Main {
 //
 //    }
 
+        Cat kot = new Cat();
+        kot.sleep();
+        kot.sound();
+        Dog pies = new Dog();
+        pies.sleep();
+        pies.sound();
+    }
+}
